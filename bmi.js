@@ -92,7 +92,7 @@ function warning(){
 
 message.style.display ='';
 show.style.display='none';
-setTimeout(clearResult, 8000);
+setTimeout(clearResult, 3000);
 }
 function clear(){
    height.value= '';
