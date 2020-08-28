@@ -86,12 +86,13 @@ function calculate(){
      input.value = weight;
      // clear input
       clear();
-    setTimeout(clearResult, 3000);
+    setTimeout(clearResult, 8000);
 }
 function warning(){
+
 message.style.display ='';
 show.style.display='none';
-setTimeout(clearResult, 3000);
+setTimeout(clearResult, 8000);
 }
 function clear(){
    height.value= '';
@@ -99,6 +100,7 @@ function clear(){
    gander.value='';
 }
 function clearResult(){
+
   show.style.display='none';
   message.style.display ='none';
 }
