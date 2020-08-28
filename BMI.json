@@ -1,0 +1,15 @@
+{
+    "name": "Weight & BMI & Protien",
+    "short_name": "BMI",
+    "start_url": "/",
+    "disply":"standalone",
+    "background_color": "rgb(66,66,66)",
+    "description": "Weight & BMI & Protien calculater",
+    "icon":[
+        {
+            "src":"fav.png",
+            "size":"192x192",
+            "type":"png"
+        }
+    ]
+}

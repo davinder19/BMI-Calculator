@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(66,66,66);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    position: relative;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: rotate(-90deg);
+    animation: shake linear 5s infinite;
+}
+/* .container{
+
+} */
+.boxes{
+    display: flex;
+    width: 280px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+    background: papayawhip;
+ }
+
+.box-1{
+    width: 80px;
+    padding: 14px;
+    font-size: 12px;
+    font-family: comfortaa, sans-serif;
+    background: #fff;
+    color:#1b9999;
+    border-right: 1px solid #1b9999;
+    
+
+}
+h1,h2{
+    font-size: 30px;
+    color:  #1b9999;
+    font-family: Kaushan Script, sans-serif;
+    margin-bottom: 16px;
+    text-align: center;
+}
+h2{
+    color: rgb(194, 90, 90) ;
+    font-size: 25px;
+    margin-top: 0.8rem;
+}
+button{
+    font-size:20px ;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 40px;
+    background:#1b9999 ;
+    font-family: Kaushan Script, sans-serif;
+    margin-top: 1rem;
+    border:1px solid #fff;
+
+   
+}
+button:active{
+    /* width: 190px; */
+    border: none;
+    background:#126969 ;
+    box-shadow: 2px 2px 2px #fff;
+    
+}
+
+.box-2{
+    width: 200px;
+   
+}
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-family: comfortaa, sans-serif;
+    text-align: center;
+  
+}
+
+@keyframes shake{
+ 0%{
+    transform: rotate(0deg);
+ }
+ 20%{
+    transform: rotate(45deg);
+ }
+  40%{
+    transform: rotate(90deg);
+ }
+ 60%{
+    transform: rotate(-45deg);
+ }
+ 80%{
+    transform: rotate(-90deg);
+ }
+ 100%{
+    transform: rotate(0deg);
+ }
+}
+@media(max-width:50rem){
+    img{
+        width: 15px;
+        height: 15px;
+        top: 10px;
+        left: 5px;
+    }
+}
+@media(max-width:20rem){
+h1,h2{
+    font-size:22px;
+}
+    }
+  
