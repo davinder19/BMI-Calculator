@@ -18,7 +18,7 @@ gander.addEventListener('change', ()=>{
     test = gander.options[gander.selectedIndex].value;
     console.log(`i'm ${test}`);
     });
-function gencheck (){
+function gencheck (e){
     h =parseInt(height.value);
     inc =parseInt(inch.value);
 
@@ -61,6 +61,7 @@ function gencheck (){
         warning();
         clear();
         }
+        e.preventDefault();
     }
 
                 // calculate function
