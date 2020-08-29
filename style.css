@@ -66,12 +66,13 @@ h2{
 }
 select{
     width: 100%;
-    padding: 12px;
+    padding: 13px;
     font-size: 20px;
     border: none;
     outline: none;
     color:#1b9999;
     font-weight: 600;
+    background:#fff;
     font-family: comfortaa, sans-serif;
 }
 button{
