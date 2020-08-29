@@ -71,6 +71,7 @@ select{
     border: none;
     outline: none;
     color:#1b9999;
+    font-weight: 600;
     font-family: comfortaa, sans-serif;
 }
 button{
@@ -91,7 +92,6 @@ button{
    
 }
 button:active{
-    /* width: 190px; */
     border: none;
     background:#126969 ;
     box-shadow: 2px 2px 2px #fff;
@@ -105,11 +105,13 @@ button:active{
 input{
     width: 100%;
     padding: 13px;
-    font-size: 20px;
+    font-size: 19px;
     border: none;
     outline: none;
     font-family: comfortaa, sans-serif;
     text-align: center;
+    color:#1b9999;
+    font-weight: 600;
   
 }
 
@@ -125,6 +127,7 @@ input{
      width: 50%;
      padding: 13px;
      background: #fff;
+     
     
 }
 
