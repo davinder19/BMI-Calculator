@@ -7,7 +7,7 @@
     "description": "Weight & BMI & Protien calculater",
     "icon":[
         {
-            "src":"fav.png",
+            "src":"favicon.png",
             "size":"192x192",
             "type":"png"
         }

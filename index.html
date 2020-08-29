@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="BMI" href="BMI.json">
     <meta name="theme-color" content="rgb(66,66,66)">
-    <link rel="short-cut icon" type="image/x-icon" href="fav.png">
+    <link rel="short-cut icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
     <title>BMI Calculate</title>
 </head>
@@ -15,11 +15,24 @@
             <img src="favicon.png" alt="">
         <h1>Weight & BMI & Protein</h1>
        <div class="boxes"> 
-         <div class="box-1"><h3>Gender</h3></div>
+         <!-- <div class="box-1"><h3>Gender</h3></div> -->
          
-         <div class="box-2"><input type="text" id="gander" placeholder="Enter Gender"></div> 
+         <!-- <div class="box-2"> -->
+             <select name="" id="gander">
+                <option value="male" disabled hidden selected>Gender</option>
+                 <option value="male">Male</option>
+                 <option value="female">Female</option>
+             </select>
+             <!-- <input type="text" id="gander" placeholder="Enter Gender"> -->
+            <!-- </div>  -->
         </div>
-        <div class="boxes"> 
+     <div class="boxes"> 
+            <div class="feet"><h3>Height</h3></div>
+            <div class="feet-1"><input type="number" id="height" placeholder="Feet">
+                <input type="number" id="inch" placeholder="inch">
+            </div> 
+        </div>
+        <!-- <div class="boxes"> 
             <div class="box-1"><h3>Feet</h3></div>
             <div class="box-2"><input type="number" id="height" placeholder="Height in Feet"></div> 
         </div>
@@ -27,7 +40,7 @@
         <div class="boxes"> 
             <div class="box-1"><h3>Inch</h3></div>
             <div class="box-2"> <input type="number" id="inch" placeholder="inch"> </div> 
-        </div>
+        </div> -->
         
          <button type="submit" id="cal"> Calculate</button>
         

@@ -41,10 +41,10 @@ img{
     background: papayawhip;
  }
 
-.box-1{
-    width: 80px;
+.box-1, .feet{
+    width: 100px;
     padding: 14px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: comfortaa, sans-serif;
     background: #fff;
     color:#1b9999;
@@ -63,6 +63,15 @@ h2{
     color: rgb(194, 90, 90) ;
     font-size: 25px;
     margin-top: 0.8rem;
+}
+select{
+    width: 100%;
+    padding: 10px 20px ;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color:#1b9999;
+    font-family: comfortaa, sans-serif;
 }
 button{
     font-size:20px ;
@@ -90,7 +99,7 @@ button:active{
 }
 
 .box-2{
-    width: 200px;
+    width: 180px;
    
 }
 input{
@@ -103,6 +112,31 @@ input{
     text-align: center;
   
 }
+/* .feet{
+    width:80px;
+    font-family: comfortaa, sans-serif;
+    padding: 11px;
+    color: #1b9999;
+    font-size: 20px;
+   font-weight: 100;
+    background: #fff;
+} */
+.feet-1{
+    width: 200px;
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+}
+#height, #inch{
+    width: 50%;
+     padding: 10px;
+    background: #fff;
+    
+}
+#height{
+    border-right: 1px solid #1b9999;
+}
+
 
 @keyframes shake{
  0%{
